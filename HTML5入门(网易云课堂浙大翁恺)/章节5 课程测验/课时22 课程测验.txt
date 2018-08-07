@@ -1,0 +1,47 @@
+题目1：以下哪个标记在浏览器的顶部显示页面标题：
+A: <title>                                                               √
+B: <meta>
+C: <style>
+D: <caption>                                                           
+
+题目2：以下哪行的标记是正确的闭合了的：
+A: <p><b>A</p></b>
+B:  <b><p>A</p></b>                                       √
+C: <b><p>A</p>
+D: <b>A</p>    
+
+题目3：在以下哪个标记里的文字不会被读者看到：
+A: <body>
+B: <table>
+C:  <head>                                                           √
+D: <section>
+
+题目4：在HTML5中取消或不被提倡使用的标记被以下哪项所替代了：
+A:  CSS                                                                  √
+B: 其他标记
+C: JavaScript
+D: Python
+
+题目5：以下哪项是有效的HTML标记：
+A: html                                                                   √
+B: text
+C: src                                                                     
+D: content
+
+题目6：HTML标记<!DOCTYPE>是用来：
+A:  定义表格中的一个单元
+B: 定义一个表格
+C: 声明一个变量
+D:  声明文件的类型                                                   √
+
+题目7：以下哪个标记在页面上产生一条横线：
+A: <ruler>
+B: <line>
+C: <hr>                                                                   √
+D: <bar>
+
+题目8：以下哪个标记在表格中产生一行：
+A: <tr>                                                                    √
+B: <td> 
+C: <title>
+D: <tead>

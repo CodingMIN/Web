@@ -1,0 +1,16 @@
+实践课：换行标记实践
+根据提示创建自己的HTML文档，并印证效果
+
+创建一个html文件，写入如下代码：
+<!DOCTYPE HTML>
+<html>
+<body>
+
+This text contains<br />a line break.
+
+</body>
+</html>
+
+结果:
+This text contains 
+a line break.

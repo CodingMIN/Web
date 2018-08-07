@@ -1,0 +1,12 @@
+题目1：页面的内容应该放在以下哪个标记中：
+A: <text></text>
+B: <body></body>                                     √
+C: <content></content>
+D: <head></head>
+
+
+题目2：以下哪个标记在浏览器的顶部显示页面标题：
+A:  <title>                                                           √
+B:  <meta>
+C: <style>
+D: <caption>

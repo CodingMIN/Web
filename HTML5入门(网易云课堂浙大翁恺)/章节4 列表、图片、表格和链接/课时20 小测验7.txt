@@ -1,0 +1,11 @@
+题目1：如果要装在链接页面到不同窗口，必须使用以下哪个属性：
+A: src
+B: target                                                                                 √
+C: id
+D: title
+
+题目2：以下哪项是正确的超链接：
+A: <a href="http://www.163.com">163</a>                          √
+B: <a>http://www.163.com</a>
+C: <a url="http://www.163.com">163</a>
+D: <a src="http://www.163.com">163</a>

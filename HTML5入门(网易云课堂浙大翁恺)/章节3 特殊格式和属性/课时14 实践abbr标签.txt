@@ -1,0 +1,16 @@
+实践课：实践abbr标签
+      直观感受abbr标签的效果
+
+
+
+新建html文件，输入如下代码：
+
+<!DOCTYPE HTML>
+<html>
+<body>
+
+The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
+
+</body>
+</html>
+

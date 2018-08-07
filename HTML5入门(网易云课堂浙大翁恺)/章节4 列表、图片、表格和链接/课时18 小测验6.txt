@@ -1,0 +1,12 @@
+题目1：在一个<img>标记中决定图片文件位置的是哪个属性：
+A: alt
+B: title
+C: src                                                                                  √
+D: href
+
+
+题目2：以下哪个是在html页面中正确地插入图片的方法：
+A: <img src="abc.png" alt="abc" />                                 √
+B: <image src="abc.png" alt="abc" />
+C: <img href="abc.png" alt="abc" />
+D: <img href="abc">abc.png</img>
