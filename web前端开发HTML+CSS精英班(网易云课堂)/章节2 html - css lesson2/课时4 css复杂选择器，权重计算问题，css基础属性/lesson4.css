@@ -1,0 +1,93 @@
+/*父子选择器/派生选择器
+ 只在于父子关系成立 不在于用什么选择器写.0.p                                                                                                                                                                                                                                                                                                                                                                                                    
+*/
+/*div strong em{
+	background-color: red;
+}*/
+
+
+/*div em{
+	background-color: red;
+}*/
+
+/*直接子元素选择器*/
+
+/*
+div > em{
+	background-color: green;
+}*/
+
+/*section div ul li a em{
+	background-color: red;
+}
+浏览器遍历：自右向左，因为比较快
+*/
+
+/*并列选择器，不加空格*/
+/*div.demo{
+	background-color: yellow;
+}
+*/
+
+/*几种方式选择em*/
+/*#only{
+	background-color: red;
+}
+
+.content em{
+	background-color: green;
+}
+
+.wrapper>.content>.box{
+	background-color: gray;
+}
+
+div.wrapper>div[class="conrtent"]>div#only.box{
+	background-color: yellow;
+}*/
+
+/*div #idP{
+	background-color: red;
+}*/
+/*权重计算问题
+权重相加
+100    1
+#idDiv p{
+	background-color: red;
+}
+10          10
+.classDiv .classP{
+	background-color: green;
+}
+1     10   100
+div .classP#idP{
+	background-color: green;
+}
+如果权重一样后面覆盖前面的*/
+
+/*共用代码块,分组选择器*/
+/*em,strong,span{
+	background-color: red;
+}*/
+/*
+.demo1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.demo2{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}*/
+.demo1{
+	background-color: red;
+}
+.demo2{
+	background-color: green;
+}
+.demo1,
+.demo2{
+	width: 100px;
+	height: 100px;
+}

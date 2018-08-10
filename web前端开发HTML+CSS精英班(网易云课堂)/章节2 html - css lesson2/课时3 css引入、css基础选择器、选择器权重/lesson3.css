@@ -1,0 +1,59 @@
+/*/*div{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+}*/
+
+/*
+#only{
+	background-color: red;
+}
+
+#only1{
+	background-color: green;
+}
+
+.demo{
+	background-color: yellow
+	;
+}
+
+.demo1{
+	color: #f40;
+}
+
+div{
+	background-color: black;
+}*/
+
+/*span{
+	color: #000;
+	font-weight: bold;
+}*/
+
+/**{
+	background-color: green;
+}
+//*代表任意的*/
+
+/*//属性选择器
+[id="only1"]{
+	background-color: red;
+}*/
+
+/*div{
+	background-color: green!important;
+}*/
+
+css权重
+
+!important          Infinty(正无穷在计算机中可表示,不像数学,正无穷+1>正无穷)
+行间样式             1000
+id                  100
+class|属性|伪类      10
+标签|伪元素          1
+通配符               0
+
+
+1000 100  不是十进制是256进制

@@ -3,6 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Document</title>
+<!-- 	页面级css 
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+		}
+	</style> -->
+	<!--3.外部css文件-->
+	<link rel="stylesheet" type="text/css" href="lesson3.css"><!--浏览器执行到这行同时下载HTML和css，开启一个新的线程下载css，原有线程下载HTML，异步加载-->
+	<!-- 计算机异步：两件事同时干
+	计算机同步：先干一件在干另一件 -->
+
 </head>
 <body>
 	<!-- 很重要！
@@ -28,5 +41,45 @@
 		<!--注释1.写备注 2.调试-->
 		<!--如果编程十分，七分在调试，三分在开发-->
 		<!--html结构 css样式 JavaScript行为-->
-</body>
+		<!--css:cascding style sheet层叠样式表-->
+
+		<!--引入css-->
+		<!-- 1.行间样式
+		<div style="
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		"></div>
+
+		<!--2.页面级css
+		<div></div>-->
+		<!-- 3.外部css文件
+		<div></div>-->
+		<!-- 选择器 -->
+		<!-- id -->
+		<!-- <div id="only">123</div>
+		<div id="only1">234</div> -->
+		<!-- 一个元素只能一个id值 -->
+		<!-- roseonly、darryRing一个人一辈子只能送给一个人 -->
+		<!-- 2.class选择器 -->
+	<!-- 	<div class="demo demo1">123</div>
+		<div class="demo">234</div> -->
+		<!-- class与元素多对多关系 -->
+	<!-- 	3.标签选择器 -->
+		<!-- <div>123</div> -->
+	<!-- 	<span>123</span>
+		<div>
+			<span>234</span>
+		</div> -->
+		<!-- 4.通配符选择器* -->
+		<!-- <span>123</span>
+		<div>234</div>
+		<strong>111</strong> -->
+
+	<!-- 	<div id="only" class="demo">123</div>
+		!important>行间样式>id优先级>class=属性选择器(谁在后面用谁，覆盖)>标签选择器>通配符选择器
+		<div id="only1" style="background-color: blue">234</div> -->
+
+		<div style="background-color: red;">123</div>
+		</body>
 </html>
