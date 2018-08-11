@@ -1,0 +1,40 @@
+div{
+	font-size: 50px;/*设置字体的高*/
+	font-weight: bold;/*加粗*/
+	/*lighter normal bold bolder 100 200 ---900*/
+	font-style: italic;/*斜体*/
+	font-family: cursive;/*字体*/
+	/*arial乔布斯发明的字体*/
+	color:#ff4400; 
+	/*width: 10px;
+	height: 10px;
+	border: 100px solid black;
+	border-left-color: red;
+	border-top-color: green;
+	border-right-color: #00f;*/
+	/*border-width: 1px;
+	border-style: dotted;*//*虚线 dotted点状虚线 dashed条状虚线*/
+	/*画三角*/
+	width: 0;
+	height: 0;
+	border:100px solid black;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-right-color:transparent/*透明色*/;
+
+}
+/*
+字体颜色设置:
+1.土鳖式(纯英文单词) color:green; 
+2.颜色代码 color:#ff4400; 
+  每两位构成颜色代码
+  r           g          b
+  00-ff     00-ff      00-ff
+  #000000
+  每两位都重复的话改成三位
+3.颜色函数 color:rgb(255,255,255);
+  0-255
+*/
+strong{
+	font-size: 50px;
+}
