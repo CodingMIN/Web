@@ -1,0 +1,131 @@
+/*div{
+	width: 100px;
+	height: 100px;
+	border:1px solid black;
+	border-width: 10px;
+	border-style: dotted;
+	border-color: red;
+}*/
+
+/*div{
+	border:1px solid black;*/
+	/*text-align: center;/*对齐方式：居中*/
+	/*text-align: left;
+	height: 200px;*/
+	/*line-height: 20px;*//*单行文本高度，单行文本垂直居中line-height=height*/
+	/*text-indent: 2em;}*//*首行缩进2单位*/
+
+/*css只有块注释*/
+/*屏幕分辨率:每英寸所能容纳的垂直像素点数*/
+/*px像素，相对单位
+1em=1 font-size;相对单位*/
+
+/*span{
+	text-decoration: line-through;画中行线
+/*	text-decoration: none;没有线
+}
+
+del{
+	/*	text-decoration: none;没有线
+	}
+*/
+
+/*span{
+	color: rgb(0,0,238);
+	text-decoration: underline;
+	cursor: pointer;
+}*/
+/*伪类选择器:hover*/
+/*a:hover{
+	background-color: orange;
+}*/
+/*
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	background-color: #f40;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial;
+	border-radius: 10px;
+}
+*/
+
+/*span{
+	display: inline;
+}
+
+div{
+	display: block;
+}
+
+img{
+	display: inline-block;
+}
+可以通过display改变原有属性
+*/
+
+/*img{
+	width: 100px;
+	height: 200px;
+	margin-left: -6px;
+}*/
+
+/*.box1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+
+.box3{
+	width: 300px;
+	height: 300px;
+	background-color: gray;
+}
+
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+.box5{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}*/
+
+.red{
+	background-color: red;
+}
+
+.green{
+	background-color: green;
+}
+
+.gray{
+	background-color: gray;
+}
+
+.size1{
+	width: 100px;
+	height: 100px;
+}
+
+.size2{
+	width: 200px;
+}
+
+.size3{
+	width: 300px;
+	height: 300px;
+}
